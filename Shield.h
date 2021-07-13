@@ -1,7 +1,6 @@
 #ifndef SHIELD_H
 #define SHIELD_H
 #include<string>
-using namespace std;
 class Shield {
 	private:
 		int defence;
@@ -11,7 +10,6 @@ class Shield {
 		int getValue ( );
 		int getDefence ( );
 		int getAttack ( );
-		string getName ( );
 		Shield ( );
 		Shield ( int addDefence_, int addAttack_, int value_);
 		void newAttack ( int newNumber );
